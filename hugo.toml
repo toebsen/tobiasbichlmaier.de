@@ -1,0 +1,40 @@
+baseURL = 'http://www.tobiasbichlmaier.de/'
+languageCode = 'en-us'
+title = 'Tobias Bichlmaier'
+theme = 'hugo-coder'
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[markup.highlight]
+style = "monokai"
+
+[params]
+  author = "Tobias Bichlmaier"  
+  description = "John Doe's personal website"
+  info = ["Software Developer", "Living and working in Munich, Germany", "", "Contact me:"]
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpg"
+  gravatar = "tobiasbichl@googlemail.com"
+  since = 2023
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+# Social links
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-2x fa-github "
+  weight = 1
+  url = "https://github.com/toebsen/"
+[[params.social]]
+  name = "linkedin"
+  icon = "fa fa-2x fa-linkedin"
+  weight = 2
+  url = "https://www.linkedin.com/in/tobias-bichlmaier-973017164/"
+[[params.social]]
+  name = "mail"
+  icon = "fa fa-2x fa-envelope"
+  weight = 3
+  url = "mailto:dev.tobias.bichlmaier@googlemail.com"
